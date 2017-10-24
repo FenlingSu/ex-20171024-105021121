@@ -59,7 +59,9 @@ public class MainFrame extends JFrame{
         jmiExit.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                System.exit(0);
+                dispose();
+                loginframe.reset();
+                loginframe.setVisible(true);
             }
         });
 
