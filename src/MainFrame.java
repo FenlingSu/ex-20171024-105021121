@@ -19,7 +19,7 @@ public class MainFrame extends JFrame{
     private JMenu jmG = new JMenu("Game");
     private JMenu jmA = new JMenu("About");
     private JMenuItem jmiExit = new JMenuItem("Exit");
-    private JMenuItem jmiGame = new JMenuItem("Loto");
+    private JMenuItem jmiGame = new JMenuItem("Game");
     private JInternalFrame jif = new JInternalFrame();
 
     private Container jifcp;
@@ -107,8 +107,8 @@ public class MainFrame extends JFrame{
     }
     private void lotoGenerate(){
         int i=0;
-        boolean flag = true;
         while (i<6){
+            boolean flag = true;
             data[i]=rnd.nextInt(42)+1;
             int j=0;
             while(j<i && flag){
