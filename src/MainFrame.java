@@ -16,10 +16,10 @@ public class MainFrame extends JFrame{
     private JMenuBar jmb = new JMenuBar();
     private JMenu jmF = new JMenu("File");
     private JMenu jmS = new JMenu("Set");
-    private JMenu jmG = new JMenu("Loto");
+    private JMenu jmG = new JMenu("Game");
     private JMenu jmA = new JMenu("About");
     private JMenuItem jmiExit = new JMenuItem("Exit");
-    private JMenuItem jmiGame = new JMenuItem("Game");
+    private JMenuItem jmiGame = new JMenuItem("Loto");
     private JInternalFrame jif = new JInternalFrame();
 
     private Container jifcp;
